@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/pollarm/SwiftyJSONDecodable.git", tag: spec.version }
+  spec.source = { git: "https://github.com/DevelopIdeas/SwiftyJSONDecodable.git", tag: spec.version }
   spec.source_files = "SwiftyJSONDecodable/**/*.{h,swift}"
 
-  spec.dependency "SwiftyJSON", "~> 2.3"
+  spec.dependency "SwiftyJSON", "~> 3.0"
 end
